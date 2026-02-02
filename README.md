@@ -3,7 +3,7 @@
 This is a simple mini e-commerce website made using **HTML, CSS and JavaScript**.  
 I built this project to practice frontend concepts like DOM manipulation, localStorage and basic UI design.
 
-## Features
+## Features 
 - Product listing with categories
 - Search products by name
 - Add to cart functionality
