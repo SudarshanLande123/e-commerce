@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+  <div class="logo">Mini E-Commerce</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+
+    
+  </ul>
+
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()"><i id="themeIcon" class="fa-solid fa-moon"></i></button>
+    <a href="cart.html" class="cart-link">
+        <i class="fa-solid fa-cart-shopping"></i> Cart
+    </a>
+
+  </div>
+</nav>
+
+</header>
+
+<div class="filter-bar">
+  <div class="search-box">
+    <input 
+      type="text"
+      id="search"
+      placeholder="Search products..."
+      onkeyup="searchProducts()"
+    />
+  </div>
+
+  <div class="category-box">
+    <select id="categoryFilter" onchange="filterCategory()">
+      <option value="all">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="stationery">Stationery</option>
+      <option value="accessories">Accessories</option>
+    </select>
+  </div>
+</div>
+
+
+
+<div id="productContainer" class="grid"></div>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script src="js/theme.js"></script>
+</body>
+</html>
