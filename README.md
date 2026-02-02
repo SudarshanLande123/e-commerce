@@ -19,15 +19,6 @@ I built this project to practice frontend concepts like DOM manipulation, localS
 - JavaScript
 - Font Awesome
 
-## What I Learned
-- How to use JavaScript with DOM
-- Working with `localStorage`
-- Handling cart logic (add, remove, quantity)
-- Making layouts responsive using CSS
-- Using icons and basic UI improvements
 
-## Future Improvements
-- Login system
-- Payment integration
-- Backend support
-- Better UI animations
+
+
